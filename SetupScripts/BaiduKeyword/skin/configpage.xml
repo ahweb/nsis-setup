@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Windows>	<!-- 安装目录 -->
-	<VerticalLayout width="656" bkcolor="#ffff0000">
+	<VerticalLayout width="656">
 		<VerticalLayout width="656" height="370" roundcorner="5,5" bkimage="file='light-year\bk2.png'">
 			<VerticalLayout height="100"/>
 			<HorizontalLayout padding="24,0,0,0">
