@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Window size="656,370" sizebox="0,0,0,0" caption="0,0,0,410" bktrans="true">
+  <Font id="0" name="微软雅黑" size="12" bold="false" default="true" />
+  <Font id="1" name="微软雅黑" size="12" bold="true" />
+  <Font id="2" name="微软雅黑" size="24" bold="false" />
+  <Font id="3" name="微软雅黑" size="16" bold="false" />
+  <Font id="4" name="宋体" size="32" bold="false" />
+  <Font id="5" name="微软雅黑" size="14" bold="false" />
+  <Font id="6" name="微软雅黑" size="14" bold="true" />
+  <Font id="7" name="微软雅黑" size="13" bold="false" />
+  <Font id="8" name="微软雅黑" size="18" bold="false" />
+  <Include source="default.xml" />
+  <VerticalLayout>
+    <TabLayout name="wizardTab">
+      <Include source="configpage.xml" />
+      <Include source="installingpage.xml" />
+      <Include source="finishpage.xml" />
+      <Include source="uninstallpage.xml" />
+      <Include source="uninstallingpage.xml" />
+      <Include source="uninstallfinishpage.xml" />
+    </TabLayout>
+    <HorizontalLayout float="true" pos="0,16,656,32">
+      <Control width="16" />
+      <Button width="14" height="16" normalimage="file='light-year\logo@2x.png'" />
+      <Control width="4" />
+      <Label font="1" text="光年实验室" textcolor="#ffffffff" />
+      <Container />
+      <Button name="btnFinishedMin" width="16" height="16" normalimage="file='light-year\button\btn-min@2x.png'" hotimage="file='light-year\button\btn-min-focus@2x.png'" pushedimage="file='light-year\button\btn-min-focus@2x.png'" />
+      <Control width="16" />
+      <Button name="btnClose" width="16" height="16" normalimage="file='light-year\button\btn-close@2x.png'" hotimage="file='light-year\button\btn-close-focus@2x.png'" pushedimage="file='light-year\button\btn-close-focus@2x.png'" />
+      <Control width="16" />
+    </HorizontalLayout>
+  </VerticalLayout>
+</Window>
