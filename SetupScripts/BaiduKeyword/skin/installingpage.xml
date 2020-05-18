@@ -1,19 +1,47 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Windows>
-<!-- 进度 -->
-  <VerticalLayout >
-    <VerticalLayout width="480" height="250" roundcorner="5,5" bkimage="file='form\pic.png'">
-	
-	</VerticalLayout>
-	<VerticalLayout bkcolor="#FFFFFFFF" >   
-	<Control height="60" />
-	<Slider name="slrProgress" padding="30,0,30,0" height="3" mouse="false" foreimage="form\fg.png" bkimage="form\bg.png" thumbsize="0,0" bkcolor="#FFD8D8D8"  />
-	<HorizontalLayout height="20" padding="30,5,0,0">
-	<Label font="0" name="progress_tip" width="100" textcolor="#ff555555" text="正在安装" />
-	<Control />
-	<Label font="0" name="progress_pos" width="60" textalign="right" textcolor="#ff555555" />
-	</HorizontalLayout>
-	<Control />
-	</VerticalLayout>	
+	<!-- 进度 -->
+	<VerticalLayout width="656" height="370" roundcorner="5,5" bkimage="file='light-year\bk.png'">
+		<VerticalLayout>
+			<Control height="102" />
+			<Label font="9" textcolor="#ffffffff" text="安装中..." align="center"></Label>
+			<Label font="5" textcolor="#ffffffff" text="请稍后，安装向导正在安装 百度关键词工具，期间可能需要几分钟。" align="center"></Label>
+			<Control height="25" />
+			<Slider align="center" name="slrProgress" padding="78,0,78,0" height="3" mouse="false" foreimage="form\fg.png" bkimage="form\bg.png" thumbsize="0,0" bkcolor="#FFD8D8D8" />
+			<Label font="0" padding="78,0,0,0" textcolor="#ffffffff" name="progress_pos" width="60" textalign="right" />
+			<Control height="54" />
+			<HorizontalLayout>
+				<Control width="182" />
+				<VerticalLayout>
+					<Control width="48" height="48" bkimage="file='light-year\baidu-feature-1.png'"/>
+					<Control height="8" />
+					<Label text="简单易用" textcolor="#ccffffff" align="center"></Label>
+				</VerticalLayout>
+
+				<Control width="74" />
+
+				<VerticalLayout>
+					<Control width="48" height="48" bkimage="file='light-year\baidu-feature-2.png'"/>
+					<Control height="8" />
+					<Label text="海量拓词" textcolor="#ccffffff" align="center"></Label>
+				</VerticalLayout>
+				
+				<Control width="74" />
+
+				<VerticalLayout>
+					<Control width="48" height="48" bkimage="file='light-year\baidu-feature-3.png'"/>
+					<Control height="8" />
+					<Label text="结果分组" textcolor="#ccffffff" align="center"></Label>
+				</VerticalLayout>
+				<Control width="182" />
+			</HorizontalLayout>
+		</VerticalLayout>
+
+		<HorizontalLayout float="true" pos="0,16,656,32">
+			<Control width="16" />
+			<Control width="4" />
+			<Label font="1" text="百度关键词规划工具" textcolor="#ffffffff" />
+			<Container />
+		</HorizontalLayout>
 	</VerticalLayout >
 </Windows>
