@@ -16,10 +16,11 @@
     <TabLayout name="wizardTab">
       <Include source="configpage.xml" />
       <Include source="installingpage.xml" />
+      <Include source="updatingpage.xml" />
       <Include source="finishpage.xml" />
       <Include source="uninstallpage.xml" />
       <Include source="uninstallingpage.xml" />
-      <Include source="uninstallfinishpage.xml" />
+      <Include source="uninstallfinishpage.xml" /> 
     </TabLayout>
     <HorizontalLayout float="true" pos="0,16,656,32">
       <Container />
