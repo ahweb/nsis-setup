@@ -29,7 +29,7 @@
 			<Control height="12" />
 			<Label font="5" textcolor="#FF333333" text="自定义安装目录：" padding="16,0,30,0" />
 			<HorizontalLayout height="32" padding="16,6,0,0">
-				<RichEdit name="editDir" text="" textcolor="0xFF000000" inset="5,8,2,2" bkimage="public\edit\edit0.png" autohscroll="false" bordervisible="true" bordersize="1" bordercolor="0xFFD1D1D1" focusbordercolor="0xFFD1D1D1" wantreturn="false" wantctrlreturn="false" multiline="false" width="551" />
+				<RichEdit name="editDir" text="" textcolor="0xFF000000" inset="5,8,2,2" bkimage="light-year\edit\edit0.png" autohscroll="false" bordervisible="true" bordersize="1" bordercolor="0xFFD1D1D1" focusbordercolor="0xFFD1D1D1" wantreturn="false" wantctrlreturn="false" multiline="false" width="551" />
 				<Control width="10" />
 				<Button name="btnSelectDir" width="69" height="32" normalimage="light-year\button\btn-browse@2x.png" hotimage="light-year\button\btn-browse-hover@2x.png" pushedimage="light-year\button\btn-browse-pressed@2x.png" />
 			</HorizontalLayout>

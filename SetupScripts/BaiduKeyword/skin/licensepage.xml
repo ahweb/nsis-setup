@@ -11,7 +11,7 @@
 
     <HorizontalLayout height="34">
       <Control />
-      <Button name="btnAgree" width="80" height="30" normalimage="form\btn_installation_normal.png" hotimage="form\btn_installation_hovered.png" pushedimage="form\btn_installation_pressed.png" disabledimage="form\btn_installation_disable.png" font="6" textcolor="0xffffffff" disabledtextcolor="0xffffffff" margin="0,10,0,0" text="我知道了" />
+      <Button name="btnAgree" width="80" height="30" normalimage="light-year\button\btn_installation_normal.png" hotimage="light-year\button\btn_installation_hovered.png" pushedimage="light-year\button\btn_installation_pressed.png" disabledimage="light-year\button\btn_installation_disable.png" font="6" textcolor="0xffffffff" disabledtextcolor="0xffffffff" margin="0,10,0,0" text="我知道了" />
       <Control width="20" />
     </HorizontalLayout>
 
