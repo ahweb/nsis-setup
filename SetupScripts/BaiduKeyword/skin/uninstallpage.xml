@@ -11,12 +11,9 @@
 
 			<HorizontalLayout>
 				<Button name="btnClose" padding="10,0,0,0" width="188" height="72" normalimage="light-year\button\btn-cancel@2x.png" hotimage="light-year\button\btn-cancel-hover@2x.png" pushedimage="light-year\button\btn-cancel-pressed@2x.png" />
-				<Button name="btnUnInstall" width="160" height="44" normalimage="light-year\button\btn-uninstall@2x.png" hotimage="light-year\button\btn-uninstall-hover@2x.png" pushedimage="light-year\button\btn-uninstall-pressed@2x.png"/>
-				</HorizontalLayout>
+				<Button name="btnUnInstall" padding="0,6,0,0" width="160" height="44" normalimage="light-year\button\btn-uninstall@2x.png" hotimage="light-year\button\btn-uninstall-hover@2x.png" pushedimage="light-year\button\btn-uninstall-pressed@2x.png"/>
+			</HorizontalLayout>
 			<VerticalLayout>
-			</VerticalLayout>
-			<VerticalLayout height="80">
-
 			</VerticalLayout>
 		</VerticalLayout>
 	</VerticalLayout>

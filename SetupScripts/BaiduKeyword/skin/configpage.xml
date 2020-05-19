@@ -7,8 +7,9 @@
 				<Label text="百度关键词规划工具" width="230" font="2" textcolor="#ffffffff" valign="bottom"></Label>
 				<Label text="v1.7.010" font="0" textcolor="#ffffffff" valign="bottom"></Label>
 			</HorizontalLayout>
-			<Label padding="24,0,0,0" font="5" textcolor="#ffffffff" height="40" text="通过对关键词进行拓展、分组，挖掘海量百度引流关键词， 从百度获取更多的流量。" multiline="true" width="360"></Label>
+			<RichEdit padding="24,0,0,0" font="5" textcolor="#ffffffff" height="60" text="通过对关键词进行拓展、分组，挖掘海量百度引流关键词， 从百度获取更多的流量。" multiline="true" width="360" readonly="true"></RichEdit>
 			<Button name="btnInstall" padding="12,0,0,0" width="188" height="72" normalimage="light-year\button\btn-quick-install@2x.png" hotimage="light-year\button\btn-quick-install-hover@2x.png" pushedimage="light-year\button\btn-quick-install-pressed@2x.png"/>
+			<Button name="btnInstallNow" padding="12,0,0,0" width="188" height="72" normalimage="light-year\button\btn-install-now@2x.png" hotimage="light-year\button\btn-install-now-hover@2x.png" pushedimage="light-year\button\btn-install-now-pressed@2x.png" visible="false"/>
 			<VerticalLayout>
 			</VerticalLayout>
 			<VerticalLayout height="80">
@@ -24,7 +25,7 @@
 				<Control height="16" />
 			</VerticalLayout>
 		</VerticalLayout>
-		<VerticalLayout name="moreconfiginfo" bkcolor="#FFFFFFFF" visible="false" height="103">
+		<VerticalLayout name="moreconfiginfo" bkcolor="#FFFFFFFF" visible="false" height="103" inset="1,1,1,1" bordersize="1" bordercolor="0xFFCACACA">
 			<Control height="12" />
 			<Label font="5" textcolor="#FF333333" text="自定义安装目录：" padding="16,0,30,0" />
 			<HorizontalLayout height="32" padding="16,6,0,0">

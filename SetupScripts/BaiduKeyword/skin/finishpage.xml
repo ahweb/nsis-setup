@@ -17,12 +17,13 @@
 			<Label text="百度关键词工具，已成功安装完成。" font="5" align="center" textcolor="#ffffffff" />
 
 			<Control height="36" />
-			<HorizontalLayout>
+			<HorizontalLayout  height="72">
 				<Control />
 				<Button name="btnRun" width="188" height="72" align="center" normalimage="light-year\button\btn-run@2x.png" hotimage="light-year\button\btn-run-hover@2x.png" pushedimage="light-year\button\btn-run-pressed@2x.png"/>
 				<Control />
 			</HorizontalLayout>
-			<Control />
+			<VerticalLayout>
+			</VerticalLayout>
 		</VerticalLayout>
 
 		<HorizontalLayout float="true" pos="0,16,656,32">

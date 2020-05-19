@@ -7,7 +7,7 @@
     <Label name="licensename" text="《牛牛截图示例用户许可协议》" font="5" align="center" textcolor="0xFF000000"/>
     <Container height="4" />
 
-    <RichEdit width="465" height="220" name="editLicense" autovscroll="true" vscrollbar="true" readonly="true" textcolor="0xFF000000" inset="12,12,2,12" bordersize="1" />
+    <RichEdit width="465" height="260" name="editLicense" autovscroll="true" vscrollbar="true" readonly="true" textcolor="0xFF000000" inset="12,12,2,12" bordersize="1" />
 
     <HorizontalLayout height="34">
       <Control />
