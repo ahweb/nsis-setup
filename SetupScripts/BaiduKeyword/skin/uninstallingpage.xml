@@ -8,7 +8,7 @@
 			<Label font="5" textcolor="#ffffffff" text="请稍后，正在卸载百度关键词工具，期间可能需要几分钟。" align="center"></Label>
 			<Control height="25" />
 			<Slider align="center" name="slrUnInstProgress" padding="78,0,78,0" height="6" mouse="false" foreimage="gnlab\fg.png" bkimage="gnlab\bg.png" thumbsize="0,0" bkcolor="#FFD8D8D8" />
-			<Label font="0" padding="78,0,0,0" textcolor="#ffffffff" name="progress_pos"  align="left" />
+			<Label font="0" padding="78,0,0,0" textcolor="#ffffffff" name="un_progress_pos"  align="left" />
 			<Control height="54" />
 			<HorizontalLayout>
 				
