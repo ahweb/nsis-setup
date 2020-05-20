@@ -5,7 +5,7 @@
 		<VerticalLayout height="110" />
 		<VerticalLayout width="656" height="370">
 			<Label font="9" align="center" textcolor="#ffffffff" text="百度关键词规划工具已卸载" />
-			<Label font="5" padding="0,7,0,0" align="center" textcolor="#ffffffff" text="感谢你的使用" />
+			<Label font="5" padding="0,7,0,0" align="center" textcolor="#cbe0fd" text="感谢你的使用" />
 			<Control height="29" />
 			<HorizontalLayout>
 				<Control />

@@ -4,7 +4,7 @@
 	<VerticalLayout width="656" height="370" roundcorner="5,5" bkimage="file='gnlab\bk.png'">
 		<VerticalLayout width="656" height="370">
 			<Control height="84" />
-			<HorizontalLayout>
+			<HorizontalLayout height="64">
 				<Control />
 				<Button width="64" height="64" align="center" normalimage="gnlab\finished@2x.png" />
 				<Control />
@@ -14,7 +14,7 @@
 
 			<Label text="安装成功" font="9" align="center" textcolor="#ffffffff" />
 			<Control height="4" />
-			<Label text="百度关键词工具，已成功安装完成。" font="5" align="center" textcolor="#ffffffff" />
+			<Label text="百度关键词工具，已成功安装完成。" font="5" align="center" textcolor="#cbe0fd" />
 
 			<Control height="36" />
 			<HorizontalLayout  height="72">

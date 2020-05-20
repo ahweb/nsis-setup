@@ -2,13 +2,15 @@
 <Windows>	<!-- 安装目录 -->
 	<VerticalLayout width="656">
 		<VerticalLayout width="656" height="370" roundcorner="5,5" bkimage="file='gnlab\bk2.png'">
-			<VerticalLayout height="100"/>
+			<VerticalLayout height="90"/>
 			<HorizontalLayout padding="24,0,0,0">
 				<Label text="百度关键词规划工具" width="230" font="2" textcolor="#ffffffff" valign="bottom"></Label>
 				<Label text="v1.7.010" font="0" textcolor="#ffffffff" valign="bottom"></Label>
 			</HorizontalLayout>
-			<RichEdit padding="24,0,0,0" font="5" textcolor="#ffffffff" text="是否卸载百度关键词规划工具，如程序无法正常运行，你可以尝试至官网下载最新安装包。" multiline="true" width="360" readonly="true"></RichEdit>
-			<Label padding="24,0,0,0" font="10" textcolor="#ffffffff" text="www.gnlab.com" />
+			<VerticalLayout height="10"/>
+			<RichEdit padding="24,0,0,0" font="5" textcolor="#cbe0fd" text="是否卸载百度关键词规划工具，如程序无法正常运行，你可以尝试至官网下载最新安装包。" multiline="true" width="360" readonly="true"></RichEdit>
+			<Label padding="24,0,0,0" font="10" textcolor="#cbe0fd" text="www.gnlab.com" />
+			<VerticalLayout height="32"/>
 			<HorizontalLayout height="72">
 				<Button name="btnClose" padding="10,0,0,0" width="188" height="72" normalimage="gnlab\button\btn-cancel@2x.png" hotimage="gnlab\button\btn-cancel-hover@2x.png" pushedimage="gnlab\button\btn-cancel-pressed@2x.png" />
 				<Button name="btnUnInstall" padding="0,6,0,0" width="160" height="44" normalimage="gnlab\button\btn-uninstall@2x.png" hotimage="gnlab\button\btn-uninstall-hover@2x.png" pushedimage="gnlab\button\btn-uninstall-pressed@2x.png"/>
@@ -16,5 +18,12 @@
 			<VerticalLayout>
 			</VerticalLayout>
 		</VerticalLayout>
+
+		<HorizontalLayout float="true" pos="0,16,656,32">
+			<Control width="16" />
+			<Control width="4" />
+			<Label font="1" text="百度关键词规划工具" textcolor="#ffffffff" />
+			<Container />
+		</HorizontalLayout>
 	</VerticalLayout>
 </Windows>

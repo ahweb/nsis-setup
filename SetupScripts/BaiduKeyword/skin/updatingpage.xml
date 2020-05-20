@@ -6,7 +6,7 @@
 			<Control height="102" />
             <Label font="9" textcolor="#ffffffff" text="百度关键词规划工具" align="center"></Label>
 			<Label font="9" textcolor="#ffffffff" text="更新中..." align="center"></Label>
-			<Label font="5" textcolor="#ffffffff" text="请稍后，正在更新百度关键词工具，期间可能需要几分钟。" align="center"></Label>
+			<Label font="5" textcolor="#cbe0fd" text="请稍后，正在更新百度关键词工具，期间可能需要几分钟。" align="center"></Label>
 			<Control height="25" />
 			<Slider align="center" name="slrUpdatingProgress" padding="78,0,78,0" height="6" mouse="false" foreimage="gnlab\fg.png" bkimage="gnlab\bg.png" thumbsize="0,0" bkcolor="#FFD8D8D8" />
 			<Label font="0" padding="78,0,0,0" textcolor="#ffffffff" name="updating_progress_pos" align="left"/>
