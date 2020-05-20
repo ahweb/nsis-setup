@@ -4,11 +4,11 @@
 		<VerticalLayout width="656" height="370" roundcorner="5,5" bkimage="file='gnlab\bk2.png'">
 			<VerticalLayout height="90"/>
 			<HorizontalLayout padding="24,0,0,0">
-				<Label text="百度关键词规划工具" width="230" font="2" textcolor="#ffffffff" valign="bottom"></Label>
-				<Label text="v1.7.010" font="0" textcolor="#ffffffff" valign="bottom"></Label>
+				<Label name="uninstallpage_productname" width="230" font="2" textcolor="#ffffffff" valign="bottom"></Label>
+				<Label name="uninstallpage_version" font="0" textcolor="#ffffffff" valign="bottom"></Label>
 			</HorizontalLayout>
 			<VerticalLayout height="10"/>
-			<RichEdit padding="24,0,0,0" font="5" textcolor="#cbe0fd" text="是否卸载百度关键词规划工具，如程序无法正常运行，你可以尝试至官网下载最新安装包。" multiline="true" width="360" readonly="true"></RichEdit>
+			<RichEdit padding="24,0,0,0" font="5" textcolor="#cbe0fd" name="uninstallpage_description" multiline="true" width="360" readonly="true"></RichEdit>
 			<Label padding="24,0,0,0" font="10" textcolor="#cbe0fd" text="www.gnlab.com" />
 			<VerticalLayout height="32"/>
 			<HorizontalLayout height="72">
@@ -22,7 +22,7 @@
 		<HorizontalLayout float="true" pos="0,16,656,32">
 			<Control width="16" />
 			<Control width="4" />
-			<Label font="1" text="百度关键词规划工具" textcolor="#ffffffff" />
+			<Label font="1" name="uninstallpage_title" textcolor="#ffffffff" />
 			<Container />
 		</HorizontalLayout>
 	</VerticalLayout>

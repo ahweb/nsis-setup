@@ -4,7 +4,7 @@
 	<VerticalLayout width="656" height="370" roundcorner="5,5" bkimage="file='gnlab\bk.png'">
 		<VerticalLayout>
 			<Control height="102" />
-            <Label font="9" textcolor="#ffffffff" text="百度关键词规划工具" align="center"></Label>
+            <Label font="9" name="updatingpage_productname" textcolor="#ffffffff" align="center"></Label>
 			<Label font="9" textcolor="#ffffffff" text="更新中..." align="center"></Label>
 			<Label font="5" textcolor="#cbe0fd" text="请稍后，正在更新百度关键词工具，期间可能需要几分钟。" align="center"></Label>
 			<Control height="25" />
@@ -18,7 +18,7 @@
 		<HorizontalLayout float="true" pos="0,16,656,32">
 			<Control width="16" />
 			<Control width="4" />
-			<Label font="1" text="百度关键词规划工具" textcolor="#ffffffff" />
+			<Label font="1" name="updatingpage_title"  textcolor="#ffffffff" />
 			<Container />
 		</HorizontalLayout>
 	</VerticalLayout >

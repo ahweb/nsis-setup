@@ -5,7 +5,7 @@
 		<VerticalLayout>
 			<Control height="102" />
 			<Label font="9" textcolor="#ffffffff" text="安装中..." align="center"></Label>
-			<Label font="5" textcolor="#cbe0fd" text="请稍后，安装向导正在安装 百度关键词工具，期间可能需要几分钟。" align="center"></Label>
+			<Label font="5" name="installingpage_description" textcolor="#cbe0fd" align="center"></Label>
 			<Control height="25" />
 			<Slider name="slrProgress" padding="78,0,78,0" height="6" mouse="false" foreimage="gnlab\fg.png" bkimage="gnlab\bg.png" thumbsize="0,0" bkcolor="#FFD8D8D8"  />
 			<Label font="0" name="progress_pos" width="60" padding="78,0,0,0" textalign="right"  textcolor="#ffffffff" />
@@ -15,7 +15,7 @@
 				<VerticalLayout>
 					<Control width="48" height="48" bkimage="file='gnlab\baidu-feature-1.png'"/>
 					<Control height="8" />
-					<Label text="简单易用" textcolor="#ccffffff" align="center"></Label>
+					<Label name="installingpage_feature1" textcolor="#ccffffff" align="center"></Label>
 				</VerticalLayout>
 
 				<Control width="74" />
@@ -23,7 +23,7 @@
 				<VerticalLayout>
 					<Control width="48" height="48" bkimage="file='gnlab\baidu-feature-2.png'"/>
 					<Control height="8" />
-					<Label text="海量拓词" textcolor="#ccffffff" align="center"></Label>
+					<Label name="installingpage_feature2" textcolor="#ccffffff" align="center"></Label>
 				</VerticalLayout>
 				
 				<Control width="74" />
@@ -31,7 +31,7 @@
 				<VerticalLayout>
 					<Control width="48" height="48" bkimage="file='gnlab\baidu-feature-3.png'"/>
 					<Control height="8" />
-					<Label text="结果分组" textcolor="#ccffffff" align="center"></Label>
+					<Label name="installingpage_feature3" textcolor="#ccffffff" align="center"></Label>
 				</VerticalLayout>
 				<Control width="182" />
 			</HorizontalLayout>
@@ -40,7 +40,7 @@
 		<HorizontalLayout float="true" pos="0,16,656,32">
 			<Control width="16" />
 			<Control width="4" />
-			<Label font="1" text="百度关键词规划工具" textcolor="#ffffffff" />
+			<Label font="1" name="installingpage_title" textcolor="#ffffffff" />
 			<Container />
 		</HorizontalLayout>
 	</VerticalLayout >

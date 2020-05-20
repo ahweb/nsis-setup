@@ -14,7 +14,7 @@
 
 			<Label text="安装成功" font="9" align="center" textcolor="#ffffffff" />
 			<Control height="4" />
-			<Label text="百度关键词工具，已成功安装完成。" font="5" align="center" textcolor="#cbe0fd" />
+			<Label name="finishpage_description" font="5" align="center" textcolor="#cbe0fd" />
 
 			<Control height="36" />
 			<HorizontalLayout  height="72">
@@ -29,7 +29,7 @@
 		<HorizontalLayout float="true" pos="0,16,656,32">
 			<Control width="16" />
 			<Control width="4" />
-			<Label font="1" text="百度关键词规划工具" textcolor="#ffffffff" />
+			<Label font="1" name="finishpage_title" textcolor="#ffffffff" />
 			<Container />
 		</HorizontalLayout>
 	</VerticalLayout>
