@@ -11,6 +11,7 @@
   <Font id="8" name="微软雅黑" size="18" bold="false" />
   <Font id="9" name="微软雅黑" size="20" bold="true" />
   <Font id="10" name="微软雅黑" size="14" underline="true" />
+  <Font id="11" name="微软雅黑" size="18" bold="true" />
   <Include source="default.xml" />
   <VerticalLayout>
     <TabLayout name="wizardTab">
@@ -24,9 +25,9 @@
     </TabLayout>
     <HorizontalLayout float="true" pos="0,16,656,32">
       <Container />
-      <Button name="btnFinishedMin" width="16" height="16" normalimage="file='light-year\button\btn-min@2x.png'" hotimage="file='light-year\button\btn-min-focus@2x.png'" pushedimage="file='light-year\button\btn-min-focus@2x.png'" />
+      <Button name="btnFinishedMin" width="16" height="16" normalimage="file='gnlab\button\btn-min@2x.png'" hotimage="file='gnlab\button\btn-min-focus@2x.png'" pushedimage="file='gnlab\button\btn-min-focus@2x.png'" />
       <Control width="16" />
-      <Button name="btnClose" width="16" height="16" normalimage="file='light-year\button\btn-close@2x.png'" hotimage="file='light-year\button\btn-close-focus@2x.png'" pushedimage="file='light-year\button\btn-close-focus@2x.png'" />
+      <Button name="btnClose" width="16" height="16" normalimage="file='gnlab\button\btn-close@2x.png'" hotimage="file='gnlab\button\btn-close-focus@2x.png'" pushedimage="file='gnlab\button\btn-close-focus@2x.png'" />
       <Control width="16" />
     </HorizontalLayout>
   </VerticalLayout>

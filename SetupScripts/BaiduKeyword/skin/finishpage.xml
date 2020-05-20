@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Windows>
 	<!-- 完成 -->
-	<VerticalLayout width="656" height="370" roundcorner="5,5" bkimage="file='light-year\bk.png'">
+	<VerticalLayout width="656" height="370" roundcorner="5,5" bkimage="file='gnlab\bk.png'">
 		<VerticalLayout width="656" height="370">
 			<Control height="84" />
 			<HorizontalLayout>
 				<Control />
-				<Button width="64" height="64" align="center" normalimage="light-year\finished@2x.png" />
+				<Button width="64" height="64" align="center" normalimage="gnlab\finished@2x.png" />
 				<Control />
 			</HorizontalLayout>
 
@@ -19,7 +19,7 @@
 			<Control height="36" />
 			<HorizontalLayout  height="72">
 				<Control />
-				<Button name="btnRun" width="188" height="72" align="center" normalimage="light-year\button\btn-run@2x.png" hotimage="light-year\button\btn-run-hover@2x.png" pushedimage="light-year\button\btn-run-pressed@2x.png"/>
+				<Button name="btnRun" width="188" height="72" align="center" normalimage="gnlab\button\btn-run@2x.png" hotimage="gnlab\button\btn-run-hover@2x.png" pushedimage="gnlab\button\btn-run-pressed@2x.png"/>
 				<Control />
 			</HorizontalLayout>
 			<VerticalLayout>

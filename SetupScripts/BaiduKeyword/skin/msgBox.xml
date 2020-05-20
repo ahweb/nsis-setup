@@ -4,11 +4,11 @@
 	<Font id="0" name="微软雅黑" size="13" bold="false" default="true" shared="true" />
 	<Font id="1" name="微软雅黑" size="14" bold="true" shared="true" />
 	<VerticalLayout width="408" height="287" bkcolor="#FFFFFFFF" >
-		<HorizontalLayout height="36" bkimage="file='light-year\bk.png'">
+		<HorizontalLayout height="36" bkimage="file='gnlab\titlebar_bk.png'">
 			<Label name="lblTitle" textpadding="5,0,0,0" text="警告" textcolor="0xff333333" />
 			<HorizontalLayout width="67">
 				<Container />
-				<Button name="btnClose" width="16" height="16" padding="0,10,8,0" normalimage="file='light-year\button\btn-close@2x.png'" hotimage="file='light-year\button\btn-close-focus@2x.png'" pushedimage="file='light-year\button\btn-close-focus@2x.png'" />
+				<Button name="btnClose" width="16" height="16" padding="0,10,8,0" normalimage="file='gnlab\button\btn-close@2x.png'" hotimage="file='gnlab\button\btn-close-focus@2x.png'" pushedimage="file='gnlab\button\btn-close-focus@2x.png'" />
 			</HorizontalLayout>
 		</HorizontalLayout>
 
@@ -33,10 +33,10 @@
 			<HorizontalLayout height="30">
 				<Container />
 				<Class name="btn_global_green_80x30" value="font=&quot;7&quot; normaltextcolor=&quot;white&quot; normalimage=&quot;file='../public/button/btn_global_green_80x30_normal.png'&quot; hotimage=&quot;file='../public/button/btn_global_green_80x30_hovered.png'&quot; pushedimage=&quot;file='../public/button/btn_global_green_80x30_pushed.png'&quot; disabledimage=&quot;file='../public/button/btn_global_green_80x30_normal.png' fade='80'&quot;"/>
-				<Button name="btnOK" width="69" height="32" normalimage="file='light-year\button\btn-ok@2x.png'"  hotimage="file='light-year\button\btn-ok-hover@2x.png'" pushedimage="file='light-year\button\btn-ok-pressed@2x.png'" />
+				<Button name="btnOK" width="69" height="32" normalimage="file='gnlab\button\btn-ok@2x.png'"  hotimage="file='gnlab\button\btn-ok-hover@2x.png'" pushedimage="file='gnlab\button\btn-ok-pressed@2x.png'" />
 				<Control width="10"/>
 				<HorizontalLayout name="hlCancel" visible="false" width="68">
-					<Button name="btnCancel" width="69" height="32" normalimage="file='light-year\button\btn-cancel2@2x.png'"  hotimage="file='light-year\button\btn-cancel2-hover@2x.png'" pushedimage="file='light-year\button\btn-cancel2-pressed@2x.png'" />
+					<Button name="btnCancel" width="69" height="32" normalimage="file='gnlab\button\btn-cancel2@2x.png'"  hotimage="file='gnlab\button\btn-cancel2-hover@2x.png'" pushedimage="file='gnlab\button\btn-cancel2-pressed@2x.png'" />
 				</HorizontalLayout>
 				<Container width="20" />
 			</HorizontalLayout>
