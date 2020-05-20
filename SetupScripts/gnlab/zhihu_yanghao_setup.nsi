@@ -12,7 +12,6 @@
 !define INSTALL_APPEND_PATH             "ZhihuYangHao"	  #安装路径追加的名称 
 !define INSTALL_DEFALT_SETUPPATH        ""       #默认生成的安装路径  
 !define EXE_NAME               		    "ZhihuYangHao.exe"
-!define PRODUCT_VERSION        		    "2.5.0.0"
 !define PRODUCT_PUBLISHER      		    "光年实验室"
 !define PRODUCT_LEGAL          		    "光年实验室 Copyright（c）2020"
 !define INSTALL_OUTPUT_BASE_NAME        "Zhihu_Yanghao_PC_Setup"
@@ -24,7 +23,7 @@
 !define INSTALL_LICENCE_FILENAME    "licence_zhihu.rtf"
 !define INSTALL_ICO 				"logo.ico"
 
-
+!include "zhihu_yanghao_version.nsh"
 !include "ui_gnlab_setup.nsh"
 
 # ==================== NSIS属性 ================================
