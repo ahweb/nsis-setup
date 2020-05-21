@@ -8,8 +8,8 @@
 				<Label name="uninstallpage_version" font="0" textcolor="#ffffffff" valign="bottom"></Label>
 			</HorizontalLayout>
 			<VerticalLayout height="10"/>
-			<RichEdit padding="24,0,0,0" font="5" textcolor="#cbe0fd" name="uninstallpage_description" multiline="true" width="360" readonly="true"></RichEdit>
-			<Label padding="24,0,0,0" font="10" textcolor="#cbe0fd" text="www.gnlab.com" />
+			<RichEdit padding="24,0,0,0" font="5" textcolor="#FFEEF5FF" name="uninstallpage_description" multiline="true" width="360" readonly="true"></RichEdit>
+			<Label padding="24,0,0,0" font="10" textcolor="#FFEEF5FF" text="www.gnlab.com" />
 			<VerticalLayout height="32"/>
 			<HorizontalLayout height="72">
 				<Button name="btnClose" padding="10,0,0,0" width="188" height="72" normalimage="gnlab\button\btn-cancel@2x.png" hotimage="gnlab\button\btn-cancel-hover@2x.png" pushedimage="gnlab\button\btn-cancel-pressed@2x.png" />

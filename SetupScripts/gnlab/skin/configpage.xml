@@ -8,7 +8,7 @@
 				<Label name="configpage_version" font="0" textcolor="#ffffffff" valign="bottom"></Label>
 			</HorizontalLayout>
 			<VerticalLayout height="10"/>
-			<RichEdit name="configpage_description" padding="24,0,0,0" font="5" textcolor="#cbe0fd" height="60" multiline="true" width="370" readonly="true"></RichEdit>
+			<RichEdit name="configpage_description" padding="24,0,0,0" font="5" textcolor="#FFEEF5FF" height="60" multiline="true" width="370" readonly="true"></RichEdit>
 			<Button name="btnInstall" padding="12,0,0,0" width="188" height="72" normalimage="gnlab\button\btn-quick-install@2x.png" hotimage="gnlab\button\btn-quick-install-hover@2x.png" pushedimage="gnlab\button\btn-quick-install-pressed@2x.png"/>
 			<Button name="btnInstallNow" padding="12,0,0,0" width="188" height="72" normalimage="gnlab\button\btn-install-now@2x.png" hotimage="gnlab\button\btn-install-now-hover@2x.png" pushedimage="gnlab\button\btn-install-now-pressed@2x.png" visible="false"/>
 			<VerticalLayout>
@@ -16,7 +16,7 @@
 			<VerticalLayout height="80">
 				<Control />
 				<HorizontalLayout height="20" padding="14,25,0,0">
-					<Label text="安装即表示你接受" font="7" width="96" textcolor="0xFF8bbfff" align="left"/>
+					<Label text="安装即表示你接受" font="7" width="96" textcolor="0xFFCCE2FF" align="left"/>
 					<Button name="btnAgreement" width="180" font="7" text="《用户许可协议》" textpadding="0,0,0,0" textcolor="0xFFFFFFFF" align="left" />
 					<Control />
 					<Button name="btnShowMore" width="76" height="17" normalimage="gnlab\button\btn-showmore@2x.png" hotimage="gnlab\button\btn-showmore-hover@2x.png" pushedimage="gnlab\button\btn-showmore-pressed@2x.png" />

@@ -14,7 +14,7 @@
 
 			<Label text="安装成功" font="9" align="center" textcolor="#ffffffff" />
 			<Control height="4" />
-			<Label name="finishpage_description" font="5" align="center" textcolor="#cbe0fd" />
+			<Label name="finishpage_description" font="5" align="center" textcolor="#FFEEF5FF" />
 
 			<Control height="36" />
 			<HorizontalLayout  height="72">

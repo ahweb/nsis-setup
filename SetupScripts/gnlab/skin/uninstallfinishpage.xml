@@ -5,7 +5,7 @@
 		<VerticalLayout height="110" />
 		<VerticalLayout width="656" height="370">
 			<Label font="9" align="center" name="uninstallfinishpage_finished_description" textcolor="#ffffffff" />
-			<Label font="5" padding="0,7,0,0" align="center" textcolor="#cbe0fd" name="uninstallfinishpage_description" />
+			<Label font="5" padding="0,7,0,0" align="center" textcolor="#FFEEF5FF" name="uninstallfinishpage_description" />
 			<Control height="29" />
 			<HorizontalLayout>
 				<Control />
