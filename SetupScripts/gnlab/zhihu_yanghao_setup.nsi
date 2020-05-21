@@ -9,7 +9,7 @@
 !define COMPANY_URL                     "http://www.gnlab.com"
 !define UNINSTALL_FINISH_DESCRIPTION    "感谢你的使用"
 !define PRODUCT_PATHNAME 			    "Zhihu_Yanghao_PC"  #安装卸载项用到的KEY
-!define INSTALL_APPEND_PATH             "ZhihuYangHao"	  #安装路径追加的名称 
+!define INSTALL_APPEND_PATH             "LightYear\ZhihuYangHao"	  #安装路径追加的名称 
 !define INSTALL_DEFALT_SETUPPATH        ""       #默认生成的安装路径  
 !define EXE_NAME               		    "ZhihuYangHao.exe"
 !define PRODUCT_PUBLISHER      		    "光年实验室"
