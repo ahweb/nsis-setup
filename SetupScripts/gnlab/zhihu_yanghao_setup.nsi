@@ -22,6 +22,7 @@
 !define INSTALL_RES_PATH       		"skin.zip"
 !define INSTALL_LICENCE_FILENAME    "licence_zhihu.rtf"
 !define INSTALL_ICO 				"logo.ico"
+!define DOT_NET_FRAMEWORK           "dotNetFx45_Full_setup.exe"
 
 !include "zhihu_yanghao_version.nsh"
 !include "ui_gnlab_setup.nsh"
