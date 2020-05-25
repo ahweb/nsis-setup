@@ -17,8 +17,9 @@
 				<Control />
 				<HorizontalLayout height="20" padding="14,25,0,0">
 					<Label text="安装即表示你接受" font="7" width="96" textcolor="0xFFCCE2FF" align="left"/>
-					<Button name="btnAgreement" width="180" font="7" text="《用户许可协议》" textpadding="0,0,0,0" textcolor="0xFFFFFFFF" align="left" />
-					<Control />
+					<Button name="btnAgreement" width="96" font="7" text="《用户许可协议》" textpadding="0,0,0,0" textcolor="0xFFFFFFFF" align="left" />
+					<CheckBox name="chkShotcut" width="120"  text="生成桌面快捷方式" textcolor="#FFFFFFFF" selected="true" valign="center" align="left" textpadding="18,2,0,0" normalimage="file='gnlab/button/check_no.png' dest='0,2,16,18'" normalhotimage="file='gnlab/button/check_no.png' dest='0,2,16,18'" selectedimage="file='gnlab/button/check_yes.png' dest='0,2,16,18'" selectedhotimage="file='gnlab/button/check_yes.png' dest='0,2,16,18'"/>
+      				<Control />
 					<Button name="btnShowMore" width="76" height="17" normalimage="gnlab\button\btn-showmore@2x.png" hotimage="gnlab\button\btn-showmore-hover@2x.png" pushedimage="gnlab\button\btn-showmore-pressed@2x.png" />
 					<Button visible="false" name="btnHideMore" width="76" height="17" normalimage="gnlab\button\btn-showmore@2x.png" hotimage="gnlab\button\btn-showmore-hover@2x.png" pushedimage="gnlab\button\btn-showmore-pressed@2x.png" />
 					<Control width="16"/>

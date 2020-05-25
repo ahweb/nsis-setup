@@ -1,7 +1,7 @@
 # 安装包安装使用
 
 ## 配置需要安装的文件 ##
-将所有需要安装的文件复制到FilesToInstall文件夹下。(包括.net安装包，必须名字为dotNetFx45_Full_setup.exe)
+将所有需要安装的文件复制到FilesToInstall文件夹下。(包括.net安装包)
 
 ## 设置版本 ##
 将对应的(如gnlab/baidu_keyword_version.nsh)里面的版本号修改为需要的版本。（可用 echo !define PRODUCT_VERSION "2.5.0.0">baidu_keyword_version.nsh）
